@@ -1,21 +1,38 @@
 import numpy as np
 import umap
-from sklearn.feature_extraction.text import TfidfVectorizer
+import openai
 import matplotlib.pyplot as plt
 import mplcursors
+
+# Set your OpenAI API key
+openai.api_key = 'your-api-key'
 
 # Assuming 'descriptions' is a list of unit descriptions
 descriptions = ["description1", "description2", ...]
 unit_names = ["unit1", "unit2", ...]  # Assuming 'unit_names' is a list of corresponding unit names
 class_labels = ["class1", "class2", ...]  # Assuming 'class_labels' is a list of class labels for each unit
 
-# Step 2: Text Vectorization using TF-IDF
-vectorizer = TfidfVectorizer()
-X = vectorizer.fit_transform(descriptions)
+# Use OpenAI API for text generation
+response = openai.Completion.create(
+    engine="text-davinci-002",
+    prompt="\n".join(descriptions),
+    max_tokens=150  # Adjust based on your needs
+)
 
-# Step 3: UMAP Dimensionality Reduction
-reducer = umap.UMAP(n_neighbors=15, min_dist=0.1, metric='cosine')
-embedding = reducer.fit_transform(X.toarray())
+# Extract vectorized results from OpenAI response
+vectorized_results = response['choices'][0]['text']
+vectorized_results = vectorized_results.split("\n")  # Assuming the OpenAI API response provides vectorized text on separate lines
+
+# Convert the vectorized results into a numerical format (e.g., embedding vectors)
+embedding_vectors = []  # Replace this with your actual conversion logic
+for result in vectorized_results:
+    # Convert each line of vectorized text into a numerical format
+    # Modify this part based on your specific data and conversion needs
+    vector = np.fromstring(result, sep=' ')
+    embedding_vectors.append(vector)
+
+# Convert the list of embedding vectors to a NumPy array
+embedding = np.array(embedding_vectors)
 
 # Group units by class
 class_data = {}
@@ -45,7 +62,7 @@ for class_label, unit_data in class_data.items():
 
 # Add interactivity to display unit names on click
 mplcursors.cursor(hover=True).connect("add", lambda sel: sel.annotation.set_text(", ".join([unit for unit, _ in circles[sel.artist]['unit_data']])))
-plt.title('UMAP of Units based on Descriptions')
+plt.title('Interactive UMAP of Units based on OpenAI Embeddings')
 plt.legend()
 
 plt.show()
