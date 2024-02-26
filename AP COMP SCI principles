@@ -1,1 +1,7 @@
-"Creative Development", "Data", "Algorithms and Programming", "Computer Systems and Networks", "Impact of Computing"
+"AP Computer Science Principles": [
+{"name": "Creative Development", "description": ""},
+{"name": "Data", "description": ""},
+{"name": "Algorithms and Programming", "description": ""},
+{"name": "Computer Systems and Networks", "description": ""},
+{"name": "Impact of Computing", "description": ""},
+], 
