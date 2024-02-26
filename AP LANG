@@ -1,1 +1,10 @@
-"Rhetorical Situation: Reading", "Rhetorical Situation: Writing", "Claims and Evidence: Reading", "Claims and Evidence: Writing", "Reasoning and Organization: Reading", "Reasoning and Organization: Writing", "Style: Reading", "Style: Writing"
+"AP English Language and Composition": [
+{"name": "Rhetorical Situation: Reading", "description": ""},
+{"name": "Rhetorical Situation: Writing", "description": ""},
+{"name": "Claims and Evidence: Reading", "description": ""},
+{"name": "Claims and Evidence: Writing", "description": ""},
+{"name": "Reasoning and Organization: Reading", "description": ""},
+{"name": "Reasoning and Organization: Writing", "description": ""},
+{"name": "Style: Reading", "description": ""},
+{"name": "Style: Writing", "description": ""},
+],
