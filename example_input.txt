@@ -1,0 +1,32 @@
+class_units_data = {
+    "Biology": [
+        {"name": "Cell Biology", "description": "Study of cells and their structure."},
+        {"name": "Genetics", "description": "Examination of genes and heredity."},
+        {"name": "Ecology", "description": "Analysis of the relationships between organisms and their environment."},
+    ],
+    "Chemistry": [
+        {"name": "Inorganic Chemistry", "description": "Focus on inorganic compounds."},
+        {"name": "Organic Chemistry", "description": "Study of organic compounds and carbon-based molecules."},
+        {"name": "Physical Chemistry", "description": "Combination of physics and chemistry principles."},
+    ],
+    "AP English Language": [
+        {"name": "Rhetoric", "description": "Art of persuasive speaking and writing."},
+        {"name": "Argumentation", "description": "Development of logical arguments."},
+        {"name": "Literary Analysis", "description": "Critical examination of literary works."},
+    ],
+    "Literary studies": [
+        {"name": "American Literature", "description": "Study of literature in the American context."},
+        {"name": "British Literature", "description": "Exploration of literature from the British Isles."},
+        {"name": "World Literature", "description": "Examination of literature from around the world."},
+    ],
+    "AP US History": [
+        {"name": "Colonial Period", "description": "Historical era of European colonization in the Americas."},
+        {"name": "Civil War", "description": "Conflict between Northern and Southern states."},
+        {"name": "Roaring Twenties", "description": "Cultural and social changes in the 1920s."},
+    ],
+    "AP Modern World History": [
+        {"name": "World War I", "description": "Global conflict from 1914 to 1918."},
+        {"name": "Cold War", "description": "Geopolitical tension between the USA and the USSR."},
+        {"name": "Globalization", "description": "Interconnectedness of economies and cultures on a global scale."},
+    ]
+}
