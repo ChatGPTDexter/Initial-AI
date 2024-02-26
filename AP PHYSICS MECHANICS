@@ -1,1 +1,9 @@
-"Kinematics", "Newton’s Laws of Motion", "Work, Energy, and Power", "Systems of Particles and Linear Momentum", "Rotation", "Oscillations", "Gravitation"
+"AP Physics C Mechanics": [
+{"name": "Kinematics", "description": ""},
+{"name": "Newton’s Laws of Motion", "description": ""},
+{"name": "Work, Energy, and Power", "description": ""},
+{"name": "Systems of Particles and Linear Momentum", "description": ""},
+{"name": "Rotation", "description": ""},
+{"name": "Oscillations", "description": ""},
+{"name": "Gravitation", "description": ""},
+],
