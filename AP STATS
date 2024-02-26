@@ -1,1 +1,11 @@
-"Exploring One-Variable Data", "Exploring Two-Variable Data", "Collecting Data", "Probability, Random Variables, and Probability Distributions", "Sampling Distributions", "Inference for Categorical Data: Proportions", "Inference for Quantitative Data: Means", "Inference for Categorical Data: Chi-Square", "Inference for Quantitative Data: Slopes"
+"AP Statistics": [
+{"name": "Exploring One-Variable Data", "description": ""},
+{"name": "Exploring Two-Variable Data", "description": ""},
+{"name": "Collecting Data", "description": ""},
+{"name": "Probability, Random Variables, and Probability Distributions", "description": ""},
+{"name": "Sampling Distributions", "description": ""},
+{"name": "Inference for Categorical Data: Proportions", "description": ""},
+{"name": "Inference for Quantitative Data: Means", "description": ""},
+{"name": "Inference for Categorical Data: Chi-Square", "description": ""},
+{"name": "Inference for Quantitative Data: Slopes", "description": ""},
+], 
