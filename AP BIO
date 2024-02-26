@@ -1,10 +1,10 @@
 "Biology": [
-{"name": "Chemistry of Life", "description": "",}
-{"name": "Cell Structure and Function", "description": "",}
-{"name": "Cellular Energetics",  "description": "",}
-{"name": "Cell Communication and Cell Cycle", "description": "",} 
-{"name": "Heredity", "description": "",}
-{"name": "Gene Expression and Regulation", "description": "",}
-{"name": "Natural Selection", "description": "",}
-{"name": "Ecology",  "description": "",}
+{"name": "Chemistry of Life", "description": ""},
+{"name": "Cell Structure and Function", "description": ""},
+{"name": "Cellular Energetics",  "description": ""},
+{"name": "Cell Communication and Cell Cycle", "description": ""}, 
+{"name": "Heredity", "description": ""},
+{"name": "Gene Expression and Regulation", "description": ""},
+{"name": "Natural Selection", "description": ""},
+{"name": "Ecology",  "description": ""},
 ]
