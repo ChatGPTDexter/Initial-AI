@@ -1,7 +1,9 @@
-"AP Comparative Government and Politics": [
-{"name": "Political Systems, Regimes, and Governments", "description": ""},
-{"name": "Political Institutions", "description": ""},
-{"name": "Political Culture and Participation", "description": ""},
-{"name": "Party and Electoral Systems and Citizen Organizations", "description": ""},
-{"name": "Political and Economic Changes and Development", "description": ""},
-],
+{
+  "AP Comparative Government and Politics": [
+    {"name": "Political Systems, Regimes, and Governments", "description": ""},
+    {"name": "Political Institutions", "description": ""},
+    {"name": "Political Culture and Participation", "description": ""},
+    {"name": "Party and Electoral Systems and Citizen Organizations", "description": ""},
+    {"name": "Political and Economic Changes and Development", "description": ""},
+  ]
+}
