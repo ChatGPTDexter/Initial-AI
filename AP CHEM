@@ -1,11 +1,13 @@
-"AP Chemistry": [
-{"name": "Atomic Structure and Properties", "description": ""},
-{"name": "Molecular and Ionic Compound Structure and Properties", "description": ""},
-{"name": "Intermolecular Forces and Properties", "description": ""},
-{"name": "Chemical Reactions", "description": ""},
-{"name": "Kinetics", "description": ""},
-{"name": "Thermodynamics", "description": ""},
-{"name": "Equilibrium", "description": ""},
-{"name": "Acids and Bases", "description": ""},
-{"name": "Applications of Thermodynamics", "description": ""},
-],
+{
+  "AP Chemistry": [
+    {"name": "Atomic Structure and Properties", "description": ""},
+    {"name": "Molecular and Ionic Compound Structure and Properties", "description": ""},
+    {"name": "Intermolecular Forces and Properties", "description": ""},
+    {"name": "Chemical Reactions", "description": ""},
+    {"name": "Kinetics", "description": ""},
+    {"name": "Thermodynamics", "description": ""},
+    {"name": "Equilibrium", "description": ""},
+    {"name": "Acids and Bases", "description": ""},
+    {"name": "Applications of Thermodynamics", "description": ""},
+  ]
+}
