@@ -1,12 +1,12 @@
 {
   "AP Chemistry": [
-    {"name": "Atomic Structure and Properties", "description": ""},
-    {"name": "Molecular and Ionic Compound Structure and Properties", "description": ""},
-    {"name": "Intermolecular Forces and Properties", "description": ""},
-    {"name": "Chemical Reactions", "description": ""},
-    {"name": "Kinetics", "description": ""},
-    {"name": "Thermodynamics", "description": ""},
-    {"name": "Equilibrium", "description": ""},
+    {"name": "Atomic Structure and Properties", "description": "Moles and molar mass, Mass spectroscopy of elements, Elemental composition of pure substances, Composition of mixtures, Atomic structure and electron configuration, Photoelectron spectroscopy, Periodic trends, Valence electrons and ionic compounds"},
+    {"name": "Molecular and Ionic Compound Structure and Properties", "description": "Types of chemical bonds, Intramolecular force and potential enegery, Structure of ionic solids, Structure of metals and alloys, Lewis diagrams, Resonance and formal charge, VSEPR and bond hybridization"},
+    {"name": "Intermolecular Forces and Properties", "description": "Intermolecular forces, Properties of solids, Solids, Liquids, and Gases, Ideal gas law, Kinetic molecular theory, Deviation from ideal gas law, Solutions and mixtures, Representations of solutions, Separation of solutions and mixtures chromatography, Solubility, Spectroscopy and electromagnetic spectrum, Photoelectric effect, Beer-Lambert Law"},
+    {"name": "Chemical Reactions", "description": "Introduction for reactions, Net ionic equations, Representations of reactions, Physical and chemical changes, Stoichiometry, Introduction of titration, Types of chemical reactions, Introduction to acid-base reactions, Oxidation-reducation (redox) reactions"},
+    {"name": "Kinetics", "description": "Reaction rates, Introduction to rate law, Concentration changes over time, Elementary reactions, Collision model, Reaction energy profile, Introduction to reaction mechanisms, Reaction mechanism and rate law, Stead-state approximation, Multistep reaction energy profile, Catalysis"},
+    {"name": "Thermodynamics", "description": "Endothermic and exothermic processes, Energy diagrams, Heat transfer and thermal equilibrium, Heat capacity and calorimetry, Energy of phase changes, Introduction to enthalpy of reaction, Bond enthalpies, Enthalpy of formation, Hess's law"},
+    {"name": "Equilibrium", "description": "Introduction to equilibrium, Direction of reversible reactions, Reaction quotient and equilibrium constant, Calculating the equilibrium constant, Magnitude of the equilibrium constant, Properties of the equilibrium constant, Calculating equilibrium concentrations, Representations of equilibrium, Introduction to Le Chatelier's principle, Reaction quotient and Le Chatelier's principle, Introduction to solubility equilibria, Common-ion effect, pH and solubility, Free energy of dissolution"},
     {"name": "Acids and Bases", "description": ""},
     {"name": "Applications of Thermodynamics", "description": ""},
   ]
