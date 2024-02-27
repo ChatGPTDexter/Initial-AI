@@ -1,8 +1,10 @@
-"AP Macro Economics": [
-{"name": "Basic Economic Concepts", "description": ""}, 
-{"name": "Economic Indicators and the Business Cycle", "description": ""},
-{"name": "National Income and Price Determination", "description": ""},
-{"name": "Financial Sector", "description": ""},
-{"name": "Long-Run Consequences of Stabilization Policies", "description": ""},
-{"name": "Open Economy—International Trade and Finance", "description": ""},
-], 
+{
+  "AP Macro Economics": [
+    {"name": "Basic Economic Concepts", "description": ""}, 
+    {"name": "Economic Indicators and the Business Cycle", "description": ""},
+    {"name": "National Income and Price Determination", "description": ""},
+    {"name": "Financial Sector", "description": ""},
+    {"name": "Long-Run Consequences of Stabilization Policies", "description": ""},
+    {"name": "Open Economy—International Trade and Finance", "description": ""},
+  ] 
+}
