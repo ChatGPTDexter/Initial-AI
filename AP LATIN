@@ -1,10 +1,12 @@
-"AP Latin": [
-{"name": "Vergil, Aeneid, Book 1", "description": ""},
-{"name": "Caesar, Gallic War, Books 1 and 6", "description": ""},
-{"name": "Vergil, Aeneid, Book 2", "description": ""},
-{"name": "Caesar, Gallic War, Book 4", "description": ""},
-{"name": "Vergil, Aeneid, Book 4", "description": ""},
-{"name": "Caesar, Gallic War, Book 5, Part I", "description": ""},
-{"name": "Caesar, Gallic War, Book 5, Part II, Book 6, and Book 7", "description": ""},
-{"name": "Vergil, Aeneid, Books 6, 8, and 12", "description": ""},
-],
+{
+  "AP Latin": [
+    {"name": "Vergil, Aeneid, Book 1", "description": ""},
+    {"name": "Caesar, Gallic War, Books 1 and 6", "description": ""},
+    {"name": "Vergil, Aeneid, Book 2", "description": ""},
+    {"name": "Caesar, Gallic War, Book 4", "description": ""},
+    {"name": "Vergil, Aeneid, Book 4", "description": ""},
+    {"name": "Caesar, Gallic War, Book 5, Part I", "description": ""},
+    {"name": "Caesar, Gallic War, Book 5, Part II, Book 6, and Book 7", "description": ""},
+    {"name": "Vergil, Aeneid, Books 6, 8, and 12", "description": ""},
+  ]
+}
