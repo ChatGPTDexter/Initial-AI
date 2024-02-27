@@ -1,9 +1,9 @@
 {
   "AP COMP GOV": [
-    {"name": "Political Systems, Regimes, and Governments", "description": ""},
-    {"name": "Political Institutions", "description": ""},
-    {"name": "Political Culture and Participation", "description": ""},
-    {"name": "Party and Electoral Systems and Citizen Organizations", "description": ""},
-    {"name": "Political and Economic Changes and Development", "description": ""},
+    {"name": "Political Systems, Regimes, and Governments", "description": "The Practice of Political Sciences, Defining Political Organizations, Democracy vs. Authoritarianism, Democratization, Sources of Power and Authority, Change in Power and Authority, Federal and Unitary Systems, Political Legitimacy, Sustaining Legitimacy, Political Stability"},
+    {"name": "Political Institutions", "description": "Parliamentary, Presidential, and Semi-Presidential Systems, Comparing Parliamentary, Presidential, and Semi-Presidential Systems, Executive Systems, Executive Term Limits, Removal of Executives, Legislative Systems, Independent Legislatures, Judicial Systems, Independent Judiciaries"},
+    {"name": "Political Culture and Participation", "description": "Civil Society, Political Culture, Political Ideologies, Political Values and Beliefs, Nature and Role of Political Participation, Forces that Impact Political Participation, Civil Rights and Civil Liberties, Political and Social Cleavages, Challenges From Political and Social Cleavages"},
+    {"name": "Party and Electoral Systems and Citizen Organizations", "description": "Electoral Systems and Rules, Objectives of Election Rules, Political Party Systems, Role of Political Party Systems, Impact of Social Movements and Interest Groups, Pluralist and Coporatist Interests"},
+    {"name": "Political and Economic Changes and Development", "description": "Impact of Global Economic and Technological Forces, Political Responses to Global Market Forces, Challenges with Globalization, Policies and Economic Liberalization, International Supranational Organizations, Adaptation of Social Policies, Impact of Industralization and Economic Development, Causes and Effects of Demographic Change, Impact of Natural Resources"},
   ]
 }
