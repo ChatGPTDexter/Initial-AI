@@ -1,11 +1,13 @@
-"AP Statistics": [
-{"name": "Exploring One-Variable Data", "description": ""},
-{"name": "Exploring Two-Variable Data", "description": ""},
-{"name": "Collecting Data", "description": ""},
-{"name": "Probability, Random Variables, and Probability Distributions", "description": ""},
-{"name": "Sampling Distributions", "description": ""},
-{"name": "Inference for Categorical Data: Proportions", "description": ""},
-{"name": "Inference for Quantitative Data: Means", "description": ""},
-{"name": "Inference for Categorical Data: Chi-Square", "description": ""},
-{"name": "Inference for Quantitative Data: Slopes", "description": ""},
-], 
+{
+  "AP Statistics": [
+    {"name": "Exploring One-Variable Data", "description": ""},
+    {"name": "Exploring Two-Variable Data", "description": ""},
+    {"name": "Collecting Data", "description": ""},
+    {"name": "Probability, Random Variables, and Probability Distributions", "description": ""},
+    {"name": "Sampling Distributions", "description": ""},
+    {"name": "Inference for Categorical Data: Proportions", "description": ""},
+    {"name": "Inference for Quantitative Data: Means", "description": ""},
+    {"name": "Inference for Categorical Data: Chi-Square", "description": ""},
+    {"name": "Inference for Quantitative Data: Slopes", "description": ""},
+  ]
+}
