@@ -1,5 +1,5 @@
 {
-  "AP Chemistry": [
+  "AP CHEM": [
     {"name": "Atomic Structure and Properties", "description": "Moles and molar mass, Mass spectroscopy of elements, Elemental composition of pure substances, Composition of mixtures, Atomic structure and electron configuration, Photoelectron spectroscopy, Periodic trends, Valence electrons and ionic compounds"},
     {"name": "Molecular and Ionic Compound Structure and Properties", "description": "Types of chemical bonds, Intramolecular force and potential enegery, Structure of ionic solids, Structure of metals and alloys, Lewis diagrams, Resonance and formal charge, VSEPR and bond hybridization"},
     {"name": "Intermolecular Forces and Properties", "description": "Intermolecular forces, Properties of solids, Solids, Liquids, and Gases, Ideal gas law, Kinetic molecular theory, Deviation from ideal gas law, Solutions and mixtures, Representations of solutions, Separation of solutions and mixtures chromatography, Solubility, Spectroscopy and electromagnetic spectrum, Photoelectric effect, Beer-Lambert Law"},
