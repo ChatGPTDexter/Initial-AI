@@ -1,11 +1,11 @@
 {
   "AP Physics C Mechanics": [
-    {"name": "Kinematics", "description": ""},
-    {"name": "Newton’s Laws of Motion", "description": ""},
-    {"name": "Work, Energy, and Power", "description": ""},
-    {"name": "Systems of Particles and Linear Momentum", "description": ""},
-    {"name": "Rotation", "description": ""},
-    {"name": "Oscillations", "description": ""},
-    {"name": "Gravitation", "description": ""},
+    {"name": "Kinematics", "description": "Kiematics: Motion in One Dimension, Kiematics: Motion in Two Dimensions"},
+    {"name": "Newton’s Laws of Motion", "description": "Newton's Laws of Motion: First and Second Law, Circular Motion, Newton's Laws of Motion: Third Law"},
+    {"name": "Work, Energy, and Power", "description": "Work-Energy Theorem, Force and Potential Energy, Conservation of Energy, Power"},
+    {"name": "Systems of Particles and Linear Momentum", "description": "Center of Mass, Impulse and Momentum, Conservation of Linear Momentum, Collisions"},
+    {"name": "Rotation", "description": "Tourque and Rotational Statics, Rotational Kinematics, Rotational Dynamics and Energy, Angular Momentum and its Conservation"},
+    {"name": "Oscillations", "description": "Simple Harmonic Motion, Springs, and Pendulums"},
+    {"name": "Gravitation", "description": "Gravitational Forces, Orbits of Planets and Satellites"}
   ]
 }
