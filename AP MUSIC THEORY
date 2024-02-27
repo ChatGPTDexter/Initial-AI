@@ -1,10 +1,12 @@
-"AP Music Theory": [
-{"name": "Music Fundamentals I: Pitch, Major Scales and Key Signatures, Rhythm, Meter, and Expressive Elements", "description": ""},
-{"name": "Music Fundamentals II: Minor Scales and Key Signatures, Melody, Timbre, and Texture", "description": ""},
-{"name": "Music Fundamentals III: Triads and Seventh Chords", "description": ""},
-{"name": "Harmony and Voice Leading I: Chord Function, Cadence, and Phrase", "description": ""},
-{"name": "Harmony and Voice Leading II: Chord Progressions and Predominant Function", "description": ""},
-{"name": "Harmony and Voice Leading III: Embellishments, Motives, and Melodic Devices", "description": ""},
-{"name": "Harmony and Voice Leading IV: Secondary Function", "description": ""},
-{"name": "Modes and Form", "description": ""},
-],
+{
+  "AP Music Theory": [
+    {"name": "Music Fundamentals I: Pitch, Major Scales and Key Signatures, Rhythm, Meter, and Expressive Elements", "description": ""},
+    {"name": "Music Fundamentals II: Minor Scales and Key Signatures, Melody, Timbre, and Texture", "description": ""},
+    {"name": "Music Fundamentals III: Triads and Seventh Chords", "description": ""},
+    {"name": "Harmony and Voice Leading I: Chord Function, Cadence, and Phrase", "description": ""},
+    {"name": "Harmony and Voice Leading II: Chord Progressions and Predominant Function", "description": ""},
+    {"name": "Harmony and Voice Leading III: Embellishments, Motives, and Melodic Devices", "description": ""},
+    {"name": "Harmony and Voice Leading IV: Secondary Function", "description": ""},
+    {"name": "Modes and Form", "description": ""},
+  ]
+}
