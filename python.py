@@ -9,7 +9,7 @@ import json
 # Load the API key from the .env file
 
 load_dotenv()
-api_key = "API-KEY"
+api_key = "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"
 
 client = OpenAI(api_key=api_key)    # Initialize the OpenAI client
 
@@ -25,8 +25,10 @@ def get_embeddings_batch(inputs):
     embeddings = np.array([item.embedding for item in response.data])
     return embeddings
 
+response = input("What class units do you want mapped: ")
+
 # read the text files 
-with open("AP ART HISTORY", 'r') as file: 
+with open(response, 'r') as file: 
     content = file.read()
 
 data = json.loads(content)
@@ -37,7 +39,7 @@ data = json.loads(content)
 labels = []
 descriptions = []
 
-units = data.get("AP Art History", [])
+units = data.get(response, [])
 
 
 for unit in units:
@@ -47,7 +49,7 @@ for unit in units:
 embeddings = get_embeddings_batch(descriptions)
 
 # set hyperparameters for umap. try playing around with them
-n_neighbors = 10
+n_neighbors = 4
 min_dist = 0.3
 n_components = 2
 metric = 'cosine'
