@@ -2,11 +2,11 @@
   "AP Music Theory": [
     {"name": "Music Fundamentals I: Pitch, Major Scales and Key Signatures, Rhythm, Meter, and Expressive Elements", "description": "Pitch and Pitch Notation, Rhythmic Values, Half Steps and Whole Steps, Major Scales and Scale Degrees, Major Keys and Key Signatures, Simple and Compound Beat Division, Meter and Time Signature, Rhythmic Patterns, Tempo, Dynamics and Articulation"},
     {"name": "Music Fundamentals II: Minor Scales and Key Signatures, Melody, Timbre, and Texture", "description": "Minor Scales: Natural, Harmonic, and Melodic, Relative Keys: Determining Relative Minor Keys and Notating Key Signatures, Key Relationships: Parallel, Closely Related, and Distantly Related Keys, Other Scales: Chromatic, Whole-Tone, and Pentatonic, Interval Size and Quality, Interval Inversion and Compound Intervals, Transposing Instruments, Timbre, Melodic Features, Melodic Transposition, Texture and Texture Types, Texture Devices, Rhythmic Devices"},
-    {"name": "Music Fundamentals III: Triads and Seventh Chords", "description": ""},
-    {"name": "Harmony and Voice Leading I: Chord Function, Cadence, and Phrase", "description": ""},
-    {"name": "Harmony and Voice Leading II: Chord Progressions and Predominant Function", "description": ""},
-    {"name": "Harmony and Voice Leading III: Embellishments, Motives, and Melodic Devices", "description": ""},
-    {"name": "Harmony and Voice Leading IV: Secondary Function", "description": ""},
-    {"name": "Modes and Form", "description": ""},
+    {"name": "Music Fundamentals III: Triads and Seventh Chords", "description": "Triad and Chord Qualities (M, m, d, A), Diatonic Chords and Roman Numerals, Chord Inversions and Figures: Introduction to Figured Bass, Seventh Chords, Seventh Chord Inversions and Figures"},
+    {"name": "Harmony and Voice Leading I: Chord Function, Cadence, and Phrase", "description": "Soprano-Bass Counterpoint, SATB Voice Leading, Harmonic Progression, Functional Harmony. and Cadences, Voice Leading with Seventh Chords, Voice Leading with Seventh Chords in Inversions"},
+    {"name": "Harmony and Voice Leading II: Chord Progressions and Predominant Function", "description": "Adding Predominant Function IV (iv) and ii (ii*) to a Melodic Phrase, The vi (VI) Chord, Predominant Seventh Chords, The iii (III) Chord, Candences and Predominant Function, Cadential 6/4 Chords, Additional 6/4 Chords"},
+    {"name": "Harmony and Voice Leading III: Embellishments, Motives, and Melodic Devices", "description": "Embellishing Tones: Identifying Passing Tones and Neighbor Tones, Embellishing Tones: Identifying Anticipations, Escape Tones, Appoggiaturas, and Pedal Points, Embellishing Tones: Identifying and Writing Suspensions; Identifying Retardations, Motive and Motivific Transformation, Melodic Sequence, Harmonic Sequence"},
+    {"name": "Harmony and Voice Leading IV: Secondary Function", "description": "Tonicization through Secondary Dominant Chords, Part Writing of Secondary Dominant Chords, Tonicization through Secondary Leading Tone Chords, Part Writing of Secondary Leading Tone Chords"},
+    {"name": "Modes and Form", "description": "Modes, Phrase Relationships, Common Formal Sections"},
   ]
 }
