@@ -1,11 +1,11 @@
 {
   "AP Human Geography": [
-    {"name": "Thinking Geographically", "description": ""},
-    {"name": "Population and Migration Patterns and Processes", "description": ""},
-    {"name": "Cultural Patterns and Processes", "description": ""},
-    {"name": "Political Patterns and Processes", "description": ""},
-    {"name": "Agriculture and Rural Land-Use Patterns and Processes", "description": ""},
-    {"name": "Cities and Urban Land-Use Patterns and Processes", "description": ""},
-    {"name": "Industrial and Economic Development Patterns and Processes", "description": ""},
+    {"name": "Thinking Geographically", "description": "Introduction to Maps, Geographic Data, The Power of Geographic Data, Spatial Concepts, Human-Environmental Interaction, Scales of Analysis, Regional Analysis"},
+    {"name": "Population and Migration Patterns and Processes", "description": "Population Distribution, Consequences of Population Distribution, Population Composition, Population Dynamics, The Demographic Transition Model, Malthusian Theory, Population Policies, Women and Demographic Change, Aging Populations, Causes of Migration, Forced and Voluntary Migration, Effects of Migration"},
+    {"name": "Cultural Patterns and Processes", "description": "Introduction to Culture, Cultural Landscapes, Types of Diffusion, Historical Causes of Diffusion, Contemporary Causes of Diffusion, Diffusion of Religion and Language, Effects of Diffusion"},
+    {"name": "Political Patterns and Processes", "description": "Introduction to Political Geography, Political Processes, Political Power and Territoriality, Defining Political Boundaries, The Function of Political Boundaries, Internal Boundaries, Forms of Governance, Defining Devolutionary Factors, Challenges to Sovereignty, Consequences of Centrifugal and Centripetal Forces"},
+    {"name": "Agriculture and Rural Land-Use Patterns and Processes", "description": "Introduction to Agriculture, Settlement Patterns and Survey Methods, Agricultural Origins and Diffusions, The Second Agricultural Revolution, The Green Revolution, Agricultural Production Regions, Spatial Organization of Agriculture, Von Thunen Model, The Global System of Agriculture, Consequences of Agricultural Practices, Challenges of Contemporary Agriculture, Women in Agriculture"},
+    {"name": "Cities and Urban Land-Use Patterns and Processes", "description": "The Origin and Influence of Urbanization, Cities Across the World, Cities and Globalization, The Size and Distribution of Cities, The Internal Structure of Cities, Density and Land Use, Infrastucture, Urban Sustainability, Urban Data, Challenges of Urban Changes, Challenges of Urban Sustainability"},
+    {"name": "Industrial and Economic Development Patterns and Processes", "description": "The Industrial Revolution, Economic Sectors and Patterns, Measures of Development, Women and Economic Development, Theories of Development, Trade and the World Economy, Changes as a Result of the World Economy, Sustainable Development"},
   ]
 }
