@@ -9,7 +9,7 @@ import json
 # Load the API key from the .env file
 
 load_dotenv()
-api_key = "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"
+api_key = "API-key"
 
 client = OpenAI(api_key=api_key)    # Initialize the OpenAI client
 
@@ -25,6 +25,7 @@ def get_embeddings_batch(inputs):
     embeddings = np.array([item.embedding for item in response.data])
     return embeddings
 
+# inout for which class is too be mapped
 response = input("What class units do you want mapped: ")
 
 # read the text files 
@@ -34,13 +35,14 @@ with open(response, 'r') as file:
 data = json.loads(content)
 
 
-# create an array of the unit titles
+# create an array of the unit titles + descriptions
 
 labels = []
 descriptions = []
 
 units = data.get(response, [])
 
+# input the labels and descriptions
 
 for unit in units:
     labels.append(unit["name"])
@@ -73,3 +75,5 @@ for i, text in enumerate(labels):
 
 
 plt.show()
+
+
