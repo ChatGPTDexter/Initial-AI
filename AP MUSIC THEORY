@@ -1,7 +1,7 @@
 {
   "AP Music Theory": [
-    {"name": "Music Fundamentals I: Pitch, Major Scales and Key Signatures, Rhythm, Meter, and Expressive Elements", "description": ""},
-    {"name": "Music Fundamentals II: Minor Scales and Key Signatures, Melody, Timbre, and Texture", "description": ""},
+    {"name": "Music Fundamentals I: Pitch, Major Scales and Key Signatures, Rhythm, Meter, and Expressive Elements", "description": "Pitch and Pitch Notation, Rhythmic Values, Half Steps and Whole Steps, Major Scales and Scale Degrees, Major Keys and Key Signatures, Simple and Compound Beat Division, Meter and Time Signature, Rhythmic Patterns, Tempo, Dynamics and Articulation"},
+    {"name": "Music Fundamentals II: Minor Scales and Key Signatures, Melody, Timbre, and Texture", "description": "Minor Scales: Natural, Harmonic, and Melodic, Relative Keys: Determining Relative Minor Keys and Notating Key Signatures, Key Relationships: Parallel, Closely Related, and Distantly Related Keys, Other Scales: Chromatic, Whole-Tone, and Pentatonic, Interval Size and Quality, Interval Inversion and Compound Intervals, Transposing Instruments, Timbre, Melodic Features, Melodic Transposition, Texture and Texture Types, Texture Devices, Rhythmic Devices"},
     {"name": "Music Fundamentals III: Triads and Seventh Chords", "description": ""},
     {"name": "Harmony and Voice Leading I: Chord Function, Cadence, and Phrase", "description": ""},
     {"name": "Harmony and Voice Leading II: Chord Progressions and Predominant Function", "description": ""},
