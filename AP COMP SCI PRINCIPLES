@@ -1,9 +1,0 @@
-{
-  "AP COMP SCI PRINCIPLES": [
-    {"name": "Creative Development", "description": "Collaboration, Program Functionand Purpose, Program Design and Development, Identifying and Correcting Errors"},
-    {"name": "Data", "description": "Binary Numbers, Data Compression, Extracting Information from Data, Using Programs with Data"},
-    {"name": "Algorithms and Programming", "description": "Variables and Assignments, Data Abstraction, Mathematical Expressions, Strings, Boolean Expressions, Conditionals, Nested Conditionals, Iteration, Developing Algorithms, Lists, Binary Search, Calling Procedures, Developing Procedures, Libraries, Random Values, Simulations, Algorithmic Efficiency, Undecidable Problems"},
-    {"name": "Computer Systems and Networks", "description": "The Internet, Fault Tolerance, Parallel and Distributed Computing"},
-    {"name": "Impact of Computing", "description": "Beneficial and Harmful Effects, Digital Divide, Computing Bias, Crowdsourcing, Legal and Ethical Concerns, Safe Computing"}
-  ]
-}
