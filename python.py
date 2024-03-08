@@ -10,26 +10,41 @@ def scrape_youtube_data():
     driver = webdriver.Chrome()  # Change this line based on your browser choice
 
     # Navigate to YouTube homepage
-    driver.get("https://www.khanacademy.org/science/ap-biology")
+    driver.get("https://www.youtube.com/playlist?list=PL7A9646BC5110CF64")
 
+
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, "#contents"))
+    )
+
+    main = driver.find_element(By.ID,"contents")
     # Find the first few video links on the homepage (you can adjust the range to get more videos)
-    video_link = driver.find_element(By.CSS_SELECTOR, "/html/body/ytd-app/div[1]/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[2]/ytd-item-section-renderer/div[3]/ytd-video-renderer[1]/div[1]/div/div[1]/div/h3/a/yt-formatted-string")
+    video_link = main.find_element(By.ID,"thumbnail")
+
+    video_link.click()
+
+    driver.implicitly_wait(5)
+
 
     data = []
 
-    # Click on the video link
-    video_link.click()
-
-    # Wait for the video page to load (you may need to adjust the sleep time based on your internet speed)
-    driver.implicitly_wait(5)
 
    
     # Wait for title element
-    title_element = driver.find_element((By.CSS_SELECTOR, '#title > h1 > yt-formatted-string'))
-    
+    title_element = driver.find_element(By.XPATH, '//*[@id="title"]/h1/yt-formatted-string')
+    title = title_element.text
 
     # Wait for description element
-    description_element = driver.find_element((By.XPATH, '//*[@id="attributed-snippet-text"]/span'))
+
+    
+    description = driver.find_element(By.XPATH, '//*[@id="description"]')
+
+    
+    description_short = description.find_element(By.XPATH, '//*[@id="description-inner"]')
+    description_short.click()
+
+
+    description_element = description.find_element(By.XPATH, '//*[@id="description-inline-expander"]/yt-attributed-string/span')
 
     # Get the text content of title and description
     title = title_element.text
@@ -40,7 +55,7 @@ def scrape_youtube_data():
 
     # Close the browser window
     driver.quit()
-    print(data)
+
     return data
 
 def write_to_csv(data):
