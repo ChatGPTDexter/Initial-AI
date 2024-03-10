@@ -3,18 +3,63 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 from openai import OpenAI
 import os
 
 
 def scrape_youtube_data():
-    counter = 0
+    counter = 132
     for original_videos in video_links:
 
-        WebDriverWait(driver, 10).until(
+        if counter < 99:
+            WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "#contents"))
-        )
-         
+            )
+
+
+        if counter >= 99:
+
+            new_main = driver.find_element(By.ID,"contents")
+            newVideoLinks = new_main.find_elements(By.CSS_SELECTOR, 'a.ytd-thumbnail')
+            # Scroll to the bottom of the playlist
+            driver.execute_script("arguments[0].scrollIntoView(true);", newVideoLinks[99])
+
+            WebDriverWait(driver, 10)
+            while True:
+                video_count = driver.execute_script("return document.querySelectorAll('ytd-playlist-video-renderer').length;")
+                if video_count > 100:
+                    break
+
+            if counter > 199:
+                new_main = driver.find_element(By.ID,"contents")
+                newVideoLinks = new_main.find_elements(By.CSS_SELECTOR, 'a.ytd-thumbnail')
+                driver.execute_script("arguments[0].scrollIntoView(true);", newVideoLinks[199])
+                WebDriverWait(driver, 10)
+                while True:
+                    video_count = driver.execute_script("return document.querySelectorAll('ytd-playlist-video-renderer').length;")
+                    if video_count > 200:
+                        break
+                if counter > 299:
+                    new_main = driver.find_element(By.ID,"contents")
+                    newVideoLinks = new_main.find_elements(By.CSS_SELECTOR, 'a.ytd-thumbnail')
+                    driver.execute_script("arguments[0].scrollIntoView(true);", newVideoLinks[299])
+                    WebDriverWait(driver, 10)
+                    while True:
+                        video_count = driver.execute_script("return document.querySelectorAll('ytd-playlist-video-renderer').length;")
+                        if video_count > 300:
+                            break
+                    if counter > 399:
+                        new_main = driver.find_element(By.ID,"contents")
+                        newVideoLinks = new_main.find_elements(By.CSS_SELECTOR, 'a.ytd-thumbnail')
+                        driver.execute_script("arguments[0].scrollIntoView(true);", newVideoLinks[399])
+                        WebDriverWait(driver, 10)
+                        while True:
+                            video_count = driver.execute_script("return document.querySelectorAll('ytd-playlist-video-renderer').length;")
+                            if video_count > 400:
+                                break
+                
+
         new_main = driver.find_element(By.ID,"contents")
         newVideoLinks = new_main.find_elements(By.CSS_SELECTOR, 'a.ytd-thumbnail')
         
@@ -36,9 +81,9 @@ def scrape_youtube_data():
         
         description_html = driver.find_element(By.XPATH, '//*[@id="description"]')
 
-        
         description_short = description_html.find_element(By.XPATH, '//*[@id="description-inner"]')
-        description_short.click()
+        snippet = description_short.find_element(By.ID, "snippet")
+        snippet.click()
 
         try:
 
@@ -84,14 +129,14 @@ def scrape_youtube_data():
         description = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "user", "content": f"Summarize this {firstdescription} and/or this {title} with respect to precalculus in one line describing these concepts {chapters_string} or not"},
+            {"role": "user", "content": f"Summarize this {firstdescription} and/or this {title} with respect to algebra 1 in one line describing these concepts {chapters_string} or not"},
         ],
         temperature=0,
         )
 
         data.append({'Title': title, 'Description': description.choices[0].message.content, 'Elements': chapters_string, 'URL': current_url})
 
-        driver.get("https://www.youtube.com/playlist?list=PLSQl0a2vh4HB2viKg9dzd-js9hIRXB9Fm")
+        driver.get("https://www.youtube.com/playlist?list=PLSQl0a2vh4HCYMbX9nmPgDjZ8YWOVOmT7")
 
         write_to_csv(data)
 
@@ -103,7 +148,7 @@ def scrape_youtube_data():
 
 def write_to_csv(data):
     # Specify the CSV file path
-    csv_file_path = 'precalculus.csv'
+    csv_file_path = 'Algebra1.csv'
 
     # Write the data to the CSV file
     with open(csv_file_path, 'a', newline='', encoding='utf-8') as csv_file:
@@ -114,11 +159,11 @@ def write_to_csv(data):
         writer.writerows(data)
 
 if __name__ == "__main__":
-    client = OpenAI(api_key="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")
+    client = OpenAI(api_key="api-key")
     driver = webdriver.Chrome()  # Change this line based on your browser choice
 
     # Navigate to YouTube homepage
-    driver.get("https://www.youtube.com/playlist?list=PLSQl0a2vh4HB2viKg9dzd-js9hIRXB9Fm")
+    driver.get("https://www.youtube.com/playlist?list=PLSQl0a2vh4HCYMbX9nmPgDjZ8YWOVOmT7")
 
 
     WebDriverWait(driver, 10).until(
