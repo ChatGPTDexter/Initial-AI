@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 import os
+import re
 
 
 def scrape_youtube_data():
@@ -106,6 +107,9 @@ def scrape_youtube_data():
         # Get the text content of title and description
         title = title_element.text
 
+        relevance_un = description_short.find_element(By.XPATH, '//*[@id="info"]/span[1]').text
+        relevance = re.sub(r' views', '', relevance_un)
+
         show_trancript = description_short.find_element(By.XPATH, '/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[4]/div[1]/div/ytd-text-inline-expander/div[2]/ytd-structured-description-content-renderer/div/ytd-video-description-transcript-section-renderer/div[3]/div/ytd-button-renderer')
         show_trancript.click()
 
@@ -132,10 +136,10 @@ def scrape_youtube_data():
             else:
                 continue
 
-
+        
         
 
-        data.append({'Title': title, 'Description': remove_newlines(firstdescription), 'URL': current_url, 'Transcript': transcript_string, 'date': 0, 'video-index': (counter + 1)})
+        data.append({'Title': title, 'Description': remove_newlines(firstdescription), 'URL': current_url, 'Transcript': transcript_string, 'Relevance': relevance, 'date': 0, 'video-index': (counter + 1)})
 
         write_to_csv(data)
         
@@ -153,7 +157,7 @@ def write_to_csv(data):
 
     # Write the data to the CSV file
     with open(csv_file_path, 'a', newline='', encoding='utf-8') as csv_file:
-        fieldnames = ['Title', 'Description', 'URL', 'Transcript', 'date', 'video-index']
+        fieldnames = ['Title', 'Description', 'URL', 'Transcript', 'Relevance', 'date', 'video-index']
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
         # Write the data rows
