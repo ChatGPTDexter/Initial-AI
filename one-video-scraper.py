@@ -78,6 +78,13 @@ def scrape_youtube_data():
     title = title_element.text
 
     # Wait for description elemen
+    try:
+        popup = driver.find_element(By.XPATH, '//*[@id="mealbar-promo-renderer"]')
+        dismiss_button = popup.find_element(By.XPATH, '//*[@id="dismiss-button"]/yt-button-shape/button')
+        dismiss_button.click()
+    except:
+        print("No popup")
+
 
     description_html = driver.find_element(By.XPATH, '//*[@id="description"]')
     
@@ -97,13 +104,6 @@ def scrape_youtube_data():
 
         firstdescription = ''
         
-    try:
-        popup = driver.find_element(By.XPATH, '//*[@id="mealbar-promo-renderer"]')
-        dismiss_button = popup.find_element(By.XPATH, '//*[@id="dismiss-button"]/yt-button-shape/button')
-        dismiss_button.click()
-    except:
-        print("No popup")
-
     # Get the text content of title and description
     title = title_element.text
 
@@ -125,7 +125,6 @@ def scrape_youtube_data():
     
 
     for transcript in transcripts:
-        print(transcript.text)
         if transcript.text not in unique_transcript_array and transcript.text != "":
             counter3 += 1
             unique_transcript_array.append(transcript.text)
